@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.card{
+
+    width: 30%;
+    padding: 25px;
+    transition: 0.3s;
+    margin: 35px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fad0c4;
+    box-shadow: o 4px 8px 0 rgb(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+}
+
+.myavatar{
+    width: 50%;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.social-media{
+  margin-top: 5%;
+}
+
+.social-media a{
+    text-decoration: none;
+    margin-top: 15%;
+}
+
+.iconchiqui{
+
+    width: 10%;
+    height: 10%;
+
+}
+
